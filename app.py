@@ -6,9 +6,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Index Page'
-
-
+    return 'we do t now'
+  
 @app.route('/hello/')
 @app.route('/hello/<name>')
 def hello(name=None):
@@ -20,3 +19,11 @@ def login():
         return 'login page post'
     else:
         return 'login page get'
+      
+      
+      
+      
+      
+      
+      
+      
